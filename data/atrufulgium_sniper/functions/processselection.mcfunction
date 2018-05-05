@@ -13,6 +13,9 @@ scoreboard players operation @s[scores={selection_z2=-2147483648..2147483647}] s
 execute as @s if score @s selectionbox_x1 > @s selectionbox_x2 run scoreboard players operation @s selectionbox_x1 >< @s selectionbox_x2
 execute as @s if score @s selectionbox_y1 > @s selectionbox_y2 run scoreboard players operation @s selectionbox_y1 >< @s selectionbox_y2
 execute as @s if score @s selectionbox_z1 > @s selectionbox_z2 run scoreboard players operation @s selectionbox_z1 >< @s selectionbox_z2
+#Add one to the outermost x and z to make the selectionmaking feel more natural
+scoreboard players add @s selectionbox_x2 1
+scoreboard players add @s selectionbox_z2 1
 scoreboard players operation @s deltax = @s selectionbox_x2
 scoreboard players operation @s deltax -= @s selectionbox_x1
 scoreboard players operation @s deltay = @s selectionbox_y2
