@@ -14,9 +14,6 @@ execute if block 0 0 0 bedrock run scoreboard players set @a[scores={needstp=1}]
 scoreboard players add @e timer 1
 scoreboard players set @e[scores={timer=20..9999999}] timer 0
 
-#Make it so non-creative players can't snipe
-scoreboard players set @e[gamemode=!creative,scores={snipe=1}] snipe 0
-
 #Draw any and all selection boxes
 execute as @e[scores={timer=0,selection_x1=-2147483648..2147483647,selection_x2=-2147483648..2147483647,selection_y1=-2147483648..2147483647,selection_y2=-2147483648..2147483647,selection_z1=-2147483648..2147483647,selection_z2=-2147483648..2147483647}] run function atrufulgium_sniper:graphics/drawselectionbox
 #Draw extra help lines:

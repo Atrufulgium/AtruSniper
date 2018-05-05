@@ -75,5 +75,4 @@ scoreboard objectives add sphere_x dummy
 scoreboard objectives add sphere_y dummy
 scoreboard objectives add sphere_z dummy
 
-#TODO: Objective for the actual sniping
-scoreboard objectives add snipe dummy
+gamerule maxCommandChainLength 20000000
