@@ -9,6 +9,8 @@ execute if score @s activefunction matches 5 run tellraw @s {"text": "§b[Atru S
 execute if score @s activefunction matches 6 run tellraw @s {"text": "§b[Atru Sniper] §fApplying sphere replace brush"}
 execute if score @s activefunction matches 7 run tellraw @s {"text": "§b[Atru Sniper] §fApplying diamond brush"}
 execute if score @s activefunction matches 8 run tellraw @s {"text": "§b[Atru Sniper] §fApplying diamond replace brush"}
+execute if score @s activefunction matches 9 run tellraw @s {"text": "§b[Atru Sniper] §fApplying box brush"}
+execute if score @s activefunction matches 10 run tellraw @s {"text": "§b[Atru Sniper] §fApplying box replace brush"}
 
 execute if score @s activefunction matches 0..4 as @s at @s run function atrufulgium_sniper:ui/startselectionloop
 execute if score @s activefunction matches 5..10 as @s at @s run function atrufulgium_sniper:ui/startraycast
