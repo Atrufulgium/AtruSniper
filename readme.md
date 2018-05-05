@@ -19,7 +19,7 @@ How to install
 
 Preemptive FAQ
 =====
->Your datapack broke my map
+>Your datapack broke my map.
 
 Make backups. Often. This goes for anything. I can't guarantee everything works. **If you found a bug, notify me!** And as said before, don't have anything valueable close to (0,0,0), as I use that area for storing blocks.
 
@@ -31,10 +31,14 @@ I know. It's hilarious not having loops explicitly; using recursion to achieve t
 
 I know. All block placing functions seem to block- and lightupdate their surroundings. I wish that could be toggled.
 
->I have a suggestion
+>I have a suggestion.
 
 Let me know! I can't have thought of everything that anyone'd want, so input is appreciated!
 
 >Can I contribute?
 
 Sure, once this github newbie gets how things work, and once you get how my messy code works, it should go swimmingly.
+
+>Why is it called _AtruSniper_?
+
+I'm bad at naming things.
