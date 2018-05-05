@@ -8,6 +8,8 @@ This datapack executes _a lot_ of commands to get things done. The packs sets th
 
 Also, this datapack uses (0,0,0) through (9,9,9) for copying and storing stuff. This is currently not modifiable. **Don't use this if you have something valueable there.** Maybe move it over.
 
+Currently made for snapshot 18w11a, but it should work in the newer ones too. Maybe even some older ones.
+
 How to install
 ======
 
