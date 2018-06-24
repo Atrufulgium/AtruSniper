@@ -1,4 +1,4 @@
-tellraw @a {"text":"§bRunning Atrufulgium Sniper §lv0.2.1 §r(version 'beta early-access pre-release demo showcase day-negative-half-dlc with slightly less issues')"}
+﻿tellraw @a {"text":"§bRunning Atrufulgium Sniper §lv0.2.2 §r(version 'because of course a bunch of block ids get changed in snapshots')"}
 tellraw Atrufulgium {"text":"§b§lTODO:"}
 tellraw Atrufulgium {"text":"  §9-Large Clone: Generally broken. Don't even know if worth because MC's clone is somewhy really slow. It's probably worth it though."}
 #Temporary variables that can get reset
